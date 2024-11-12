@@ -68,7 +68,7 @@ function BlogDetailPage({ blog, blogsSidebar }) {
             <Breadcrumb
                 subTitle="Blog Details"
                 title={title}
-                desc="Construction of itself, because it is pain some proper style design occur are pleasure"
+                desc=""
             />
             <div style={{ marginTop: '50px' }}>
                 <Container>
@@ -182,13 +182,13 @@ function BlogDetailPage({ blog, blogsSidebar }) {
                                                                 classes.sidebar_list__meta
                                                             }
                                                             style={{
-                                                                color: 'blue',
+                                                                color: 'rgb(87 89 91)',
                                                             }}
                                                         >
                                                             {
                                                                 sidebarBlog
                                                                     .fields
-                                                                    .shortDiscription
+                                                                    .title
                                                             }
                                                         </p>
                                                     </div>

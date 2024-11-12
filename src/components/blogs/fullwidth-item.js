@@ -31,9 +31,9 @@ function BlogFullwidthItem({ blog }) {
                                 Read more
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link href={linkPath}>35 Comments</Link>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>

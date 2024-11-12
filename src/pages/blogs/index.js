@@ -16,7 +16,7 @@ function DefaultBlogPage({ blogs }) {
             </Head>
             <Breadcrumb
                 subTitle="Our Blog"
-                title="Left Sidebar"
+                title="blogs"
                 desc="Construction of itself, because it is pain some proper style design occur are pleasure"
             />
             <div>

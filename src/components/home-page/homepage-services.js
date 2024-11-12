@@ -57,12 +57,12 @@ function HomePageServices({ services, serviceSectionItems, settings }) {
                 ))}
                 <div className={classes.navigation__holder}>
                     <div className="service-navigation">
-                        <div className="service-button-next button-next">
+                        {/* <div className="service-button-next button-next">
                             <FaChevronLeft />
                         </div>
                         <div className="service-button-prev button-prev">
                             <FaChevronRight />
-                        </div>
+                        </div> */}
                     </div>
                     <Row>
                         <Col lg={{ span: 12 }}>

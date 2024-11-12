@@ -63,15 +63,19 @@ function LatestBlog({ blogs, blogSectionItems, settings }) {
                                                         classes.blog_meta
                                                     }
                                                 >
-                                                    {blog.date}
+                                                    {new Date(blog.date).toLocaleDateString()}
                                                 </span>
                                                 <h3
                                                     className={
                                                         classes.blog_title
                                                     }
+                                                 
                                                 >
                                                     <Link
                                                         href={`/blogs/${blog.slug}`}
+                                                           style={{
+                                                        color:"#eb9d0c"
+                                                    }}
                                                     >
                                                         {blog.title}
                                                     </Link>
@@ -94,15 +98,18 @@ function LatestBlog({ blogs, blogSectionItems, settings }) {
                                                             className={
                                                                 classes.blog_btn__link
                                                             }
+                                                            style={{
+                                                                color:"#eb9d0c"
+                                                            }}
                                                         >
                                                             Read more
                                                         </Link>
                                                     </li>
-                                                    <li>
+                                                    {/* <li>
                                                         <Link href="#">
                                                             35 Comments
                                                         </Link>
-                                                    </li>
+                                                    </li> */}
                                                 </ul>
                                             </div>
                                         </div>
