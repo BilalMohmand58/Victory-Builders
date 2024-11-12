@@ -1,6 +1,6 @@
 ---
-id: 'service-06'
-title: 'Renovation'
+id: 'service-03'
+title: 'Renovation & Remodelling'
 mediumImage: 'renovation-md.jpg'
 largeImage: 'renovation-lg.jpg'
 detailBreadcrumbSubTitle: 'Single Service'

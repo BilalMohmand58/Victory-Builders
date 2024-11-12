@@ -19,7 +19,7 @@ function CounterTwo() {
         <div className={`${classes.area} ${classes.pb__140}`}>
             <Container>
                 <Row className={classes.max_md_g_y__80}>
-                    <Col lg={{ span: 3 }}>
+                    <Col lg={{ span: 4 }}>
                         <CountUp
                             start={focus ? 0 : null}
                             end={985}
@@ -48,7 +48,7 @@ function CounterTwo() {
                             )}
                         </CountUp>
                     </Col>
-                    <Col lg={{ span: 3 }}>
+                    <Col lg={{ span: 4 }}>
                         <CountUp
                             start={focus ? 0 : null}
                             end={527}
@@ -77,7 +77,7 @@ function CounterTwo() {
                             )}
                         </CountUp>
                     </Col>
-                    <Col lg={{ span: 3 }}>
+                    <Col lg={{ span: 4 }}>
                         <CountUp
                             start={focus ? 0 : null}
                             end={856}
@@ -106,7 +106,7 @@ function CounterTwo() {
                             )}
                         </CountUp>
                     </Col>
-                    <Col lg={{ span: 3 }}>
+                    {/* <Col lg={{ span: 3 }}>
                         <CountUp
                             start={focus ? 0 : null}
                             end={120}
@@ -134,7 +134,7 @@ function CounterTwo() {
                                 </div>
                             )}
                         </CountUp>
-                    </Col>
+                    </Col> */}
                 </Row>
             </Container>
         </div>

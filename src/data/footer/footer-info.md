@@ -2,7 +2,8 @@
 id: 'footer-01'
 footerLogo: '/images/logo/white.png'
 footerLogoAlt: 'Footer Logo'
-excerpt: 'Construction of itself, because it is are  <br/> but because some proper style design is occur in toil and pain pleasure'
+excerpt: '<b>Start Building Your Victory Today! </b> <br/> 
+Connect with us to discuss your project and experience a seamless, stress-free building journey with unmatched quality and attention to detail'
 inquary: 'For inquary'
 inquaryNumber: '+12345 879 854'
 informationTitle: 'Information'

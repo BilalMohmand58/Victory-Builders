@@ -31,7 +31,7 @@ function BannerThree({ bannerThreeItems }) {
                                     <p className={classes.desc}>
                                         {bannerThreeItem?.excerpt}
                                     </p>
-                                    <Link
+                                    {/* <Link
                                         href={`${bannerThreeItem.path}`}
                                         className={classes.link__btn}
                                     >
@@ -39,7 +39,7 @@ function BannerThree({ bannerThreeItems }) {
                                         <span className={classes.icon}>
                                             <IoArrowForwardOutline />
                                         </span>
-                                    </Link>
+                                    </Link> */}
                                 </div>
                             </div>
                         </Col>

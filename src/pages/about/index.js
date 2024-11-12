@@ -44,7 +44,7 @@ function AboutPage({
                 projects={projects}
                 projectSectionItems={projectSectionItems}
             /> */}
-            <Team teamItems={teamItems} teamSectionItems={teamSectionItems} />
+            {/* <Team teamItems={teamItems} teamSectionItems={teamSectionItems} /> */}
             <Testimonial
                 testimonialItems={testimonialItems}
                 testimonialSectionItems={testimonialSectionItems}

@@ -1,6 +1,6 @@
 ---
 id: 'service-01'
-title: 'Architecture'
+title: 'Modern architecture'
 mediumImage: 'architecture-md.jpg'
 largeImage: 'architecture-lg.jpg'
 detailBreadcrumbSubTitle: 'Single Service'
