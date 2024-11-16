@@ -4,8 +4,8 @@ title: 'Construction'
 mediumImage: 'construction-md.jpg'
 largeImage: 'construction-lg.jpg'
 detailBreadcrumbSubTitle: 'Single Service'
-detailBreadcrumbDesc: 'Construction of itself, because it is pain some proper style design occur are pleasure'
-detailSubTitle: 'Provide the best Constructin services for our client with their satisfaction we have expert team, modern equipments and quality materials'
-detailDesc: 'Construction of itself, because it is pain, but because some are proper style design occur in toil and pain pleasure we have a expert team some of the main features pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure...'
+detailBreadcrumbDesc: 'Building excellence with innovative techniques and quality materials'
+detailSubTitle: 'Delivering reliable and innovative construction solutions with quality and efficiency'
+detailDesc: 'Our construction services are designed to bring your projects to life with unmatched precision and expertise. We combine modern techniques, advanced equipment, and high-quality materials to ensure every structure stands the test of time. Whether it is residential, commercial, or industrial construction, our experienced team is committed to meeting your needs with efficiency and attention to detail. From planning to completion, we focus on safety, sustainability, and client satisfaction, turning your vision into reality with excellence.'
 isFeatured: true
 ---

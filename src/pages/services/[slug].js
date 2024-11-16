@@ -18,16 +18,16 @@ function ServiceDetailsPage({
     return (
         <>
             <Head>
-                <title>{service.title} - Oxybuild</title>
+                <title>{service.title} - Victory Builders</title>
                 <meta
                     name="description"
-                    content="OxyBuild - Construction React Next JS Template Industry, Products Manufacturing Company, building companies, architecture firms, and the like can take to their advantage by using OxyBuild - Construction React Next JS Template."
+                    content="Victory Builders - Construction React Next JS Template Industry, Products Manufacturing Company, building companies, architecture firms, and the like can take to their advantage by using OxyBuild - Construction React Next JS Template."
                 />
             </Head>
             <Breadcrumb
                 subTitle=" Service Details"
                 title={service.title}
-                desc="Construction of itself, because it is pain some proper style design occur are pleasure"
+                desc={service.detailBreadcrumbDesc}
             />
             <ServiceDetail
                 sidebarList={sidebarList}

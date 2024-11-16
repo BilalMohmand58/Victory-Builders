@@ -4,8 +4,8 @@ title: 'Modern architecture'
 mediumImage: 'architecture-md.jpg'
 largeImage: 'architecture-lg.jpg'
 detailBreadcrumbSubTitle: 'Single Service'
-detailBreadcrumbDesc: 'architecture of itself, because it is pain some proper style design occur are pleasure'
-detailSubTitle: 'architectureProvide the best Constructin services for our client with their satisfaction we have expert team, modern equipments and quality materials'
-detailDesc: 'architecture of itself, because it is pain, but because some are proper style design occur in toil and pain pleasure we have a expert team some of the main features pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure...'
+detailBreadcrumbDesc: 'Shaping the Future with Innovative Architectural Design'
+detailSubTitle: ' Crafting innovative and sustainable architectural designs with precision and excellence'
+detailDesc: 'At the heart of every great structure lies innovative architecture. Our team specializes in crafting modern, sustainable designs that balance functionality with aesthetics. With cutting-edge technology, quality materials, and unmatched expertise, we bring your vision to life. From conceptual planning to the finest details, we ensure that every project reflects excellence and timeless elegance. Whether it is residential, commercial, or urban spaces, our architectural solutions are tailored to meet the unique needs of our clients, delivering spaces that inspire and endure.'
 isFeatured: true
 ---
