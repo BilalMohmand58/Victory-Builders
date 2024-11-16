@@ -27,7 +27,7 @@ function Footer({ footerItems }) {
                                                 __html: footerItem?.excerpt,
                                             }}
                                         />
-                                        <div className={classes.inquary}>
+                                        {/* <div className={classes.inquary}>
                                             <h2
                                                 className={classes.inquary_info}
                                             >
@@ -41,7 +41,7 @@ function Footer({ footerItems }) {
                                             >
                                                 {footerItem?.inquaryNumber}
                                             </Link>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </Col>
                                 <Col

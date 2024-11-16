@@ -60,7 +60,7 @@ function Header() {
                         <Row>
                             <Col
                                 xl={{ span: 4, offset: 2 }}
-                                lg={{ span: 5, offset: 3 }}
+                                lg={{ span: 5, offset: 2 }}
                                 className="d-none d-lg-block"
                             >
                                 <div className={classes.info}>
@@ -69,16 +69,16 @@ function Header() {
                                             src="/images/header/icon/phone.png"
                                             alt="Phone"
                                         />
-                                        <Link href="tel://01225-265-847">
-                                            01225 265 847
+                                        <Link href="/">
+                                        +92304 1113309
                                         </Link>
                                     </div>
                                     <div className={classes.time_schedule}>
                                         <img
-                                            src="/images/header/icon/clock.png"
+                                            src="/images/header/icon/mail.png"
                                             alt="Phone"
                                         />
-                                        <span>9.00 am - 11.00 pm</span>
+                                        <span>info@buildvictory.com</span>
                                     </div>
                                 </div>
                             </Col>
@@ -296,7 +296,6 @@ function Header() {
                         <Link href="/" className={classes.logo}>
                             <img
                                 src="/images/logo/dark.png"
-                                alt="Header Dark Logo"
                             />
                         </Link>
                     </div>

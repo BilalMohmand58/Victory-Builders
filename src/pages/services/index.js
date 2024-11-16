@@ -27,16 +27,16 @@ function ServicePage({
     return (
         <>
             <Head>
-                <title>Services - Oxybuild</title>
+                <title>Services - Victory Builders</title>
                 <meta
                     name="description"
-                    content="OxyBuild - Construction React Next JS Template Industry, Products Manufacturing Company, building companies, architecture firms, and the like can take to their advantage by using OxyBuild - Construction React Next JS Template."
+                    content="Victory Builders - Construction Industry, We specialize in delivering premium construction services, ensuring every project is completed with quality, precision, and customer satisfaction.."
                 />
             </Head>
             <Breadcrumb
                 subTitle="What we do"
                 title="Our Services"
-                desc="Construction of itself, because it is pain some proper style design occur are pleasure"
+                desc="We specialize in delivering premium construction services, ensuring every project is completed with quality, precision, and customer satisfaction."
             />
             <AboutTwo aboutItemsTwo={aboutItemsTwo} />
             <AllServices

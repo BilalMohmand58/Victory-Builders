@@ -47,7 +47,7 @@ function Hero({ heroItems, settings }) {
                                 className={`btn-animation ${classes.btn_wrap}`}
                             >
                                 <Link
-                                    href="/projects/project-fullwidth"
+                                    href="/about"
                                     className={`me-20 ${classes.btn} ${classes.btn_secondary} ${classes.btn_hover__white}`}
                                 >
                                     {heroItem?.btnSecondaryText}

@@ -6,35 +6,35 @@ pattern: '/images/contact/pattern.png'
 patternAlt: 'Contact Pattern'
 subTitle: 'Do you have a project? let’s start'
 title: 'Contact with us'
-desc: 'Construction of itself, because it is pain, but because some are proper style design occur in toil and pain pleasure we have a expert team some of the main features..'
+desc: 'Connect with us to discuss your project and experience a seamless, stress-free building journey with unmatched quality and attention to detail..'
 addressTitle: 'Office Address'
-addressDesc: 'Melbourne’s GPO 434 Bourke St. Dhaka VIC 3074, Australia'
+addressDesc: 'Central Road, North Street Central Park, New York, USA'
 infoTitle: 'Contact Info'
 infoList:
     [
         {
             id: 'infoList-01',
             listText: 'Phone:',
-            path: 'tel://+096-12458-875-895',
-            listValue: '+12345 879 854',
+            path: 'tel://0092-12458-875-895',
+            listValue: '(+92) 304-111-3309',
         },
         {
             id: 'infoList-02',
             listText: 'Fax:',
-            path: 'tel://+096-12547-895-874',
-            listValue: '(+096) 12547 895 874',
+            path: 'tel://+096-304-111-3309',
+            listValue: '(0092) 304-111-3309',
         },
         {
             id: 'infoList-03',
             listText: 'Email:',
-            path: 'mailto://info@example.com',
-            listValue: 'info@example.com',
+            path: 'mailto://info@buildvictory.com/',
+            listValue: 'info@buildvictory.com/',
         },
         {
             id: 'infoList-04',
-            listText: 'Web:',
-            path: 'mailto://www.example.com',
-            listValue: 'www.example.com',
+            listText: '',
+            path: '',
+            listValue: '',
         },
     ]
 btnText: 'Submit'
