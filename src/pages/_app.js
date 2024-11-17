@@ -4,7 +4,6 @@ import Layout from '../components/layout/layout';
 import '../styles/globals.scss';
 import { ScrollToTop } from '../components/scroll';
 
-
 function MyApp({ Component, pageProps }) {
     return (
         <Layout>
@@ -13,7 +12,7 @@ function MyApp({ Component, pageProps }) {
                     name="viewport"
                     content="width=device-width, initial-scale=1"
                 />
-                <link rel="icon" href="/favicon.png" />
+                <link rel="icon" href="/favicon.ico" />
             </Head>
             <Component {...pageProps} />
             <ScrollToTop />

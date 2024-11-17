@@ -45,10 +45,7 @@ function HomePage({
         <>
             <Head>
                 <title>Home - VictoryBuilders</title>
-                <meta
-                    name="description"
-                    content="Victory Builder - Construction React Next JS Template Industry, Products Manufacturing Company, building companies, architecture firms, and the like can take to their advantage by using OxyBuild - Construction React Next JS Template."
-                />
+                <meta name="description" content="Victory Builder" />
             </Head>
             <Hero heroItems={heroItems} />
             <BannerOne bannerItems={bannerItems} />
