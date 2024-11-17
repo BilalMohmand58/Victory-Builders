@@ -1,0 +1,22 @@
+.item {
+  position: relative;
+}
+
+.desc {
+  font-size: 18px;
+}
+
+.group_image {
+  display: flex;
+}
+.group_image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.single_image {
+  width: 100%;
+}/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,124 @@
+.bg {
+  background-image: url("/images/footer/bg/1-1-1920x454.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.logo {
+  padding-bottom: 20px;
+  display: block;
+}
+
+.desc {
+  margin-bottom: 25px;
+  color: #cfe1ff;
+  font-size: 16px;
+}
+
+.inquary_info {
+  margin-bottom: 5px;
+  color: #f2a904;
+  font-size: 18px;
+  line-height: 1.2;
+}
+.inquary_number {
+  color: #cfe1ff;
+  font-size: 20px;
+}
+.inquary_number:hover {
+  color: #ffffff;
+}
+
+.widget__item .widget_address, .widget__item .widget_number {
+  color: #cfe1ff;
+}
+.widget__item .widget_address {
+  margin-bottom: 5px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.widget__item .widget_number {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.widget__title {
+  margin-bottom: 30px;
+  font-size: 28px;
+  line-height: 1.2;
+  color: #ffffff;
+}
+.widget__list li:not(:last-child) {
+  padding-bottom: 15px;
+}
+.widget__list li a {
+  color: #cfe1ff;
+  font-size: 18px;
+}
+.widget__list li a:hover {
+  color: #ffffff;
+}
+
+.bottom {
+  background-color: #000000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.social {
+  display: flex;
+}
+@media (max-width: 767px) {
+  .social {
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+}
+.social li {
+  border: 1px solid #415981;
+  text-align: center;
+}
+.social li:not(:last-child) {
+  margin-right: 20px;
+}
+.social li a {
+  color: #cfe1ff;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+}
+.social li a:hover {
+  color: #f2a904;
+}
+
+.copyright span {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+@media (max-width: 767px) {
+  .copyright span {
+    justify-content: center;
+  }
+}
+@media (max-width: 479px) {
+  .copyright span {
+    flex-wrap: wrap;
+  }
+}
+.copyright span.text {
+  color: #cfe1ff;
+}
+.copyright span.icon {
+  color: #dc3545;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.copyright span a {
+  color: #cfe1ff;
+  margin-left: 5px;
+}
+.copyright span a:hover {
+  color: #dc3545;
+}/*# sourceMappingURL=footer.module.css.map */

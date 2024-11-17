@@ -1,0 +1,84 @@
+@media (min-width: 1200px) {
+  .area {
+    padding-bottom: 140px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .area {
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .area {
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .section__holder {
+    padding-bottom: 70px;
+  }
+}
+@media (max-width: 767px) {
+  .section__holder {
+    padding-bottom: 30px;
+  }
+}
+@media (min-width: 992px) {
+  .section__holder {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.section_title {
+  position: relative;
+}
+@media (min-width: 992px) {
+  .section_title {
+    text-align: right;
+    padding-right: 30px;
+    margin-right: 30px;
+  }
+}
+@media (min-width: 992px) {
+  .section_title:before {
+    background-color: #d3d2d2;
+    height: 100px;
+    width: 1px;
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+}
+@media (min-width: 992px) {
+  .section_title__wrap {
+    display: flex;
+    align-items: center;
+  }
+}
+.section_title .sub_title {
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  font-weight: 700;
+  color: #f2a904;
+  display: block;
+  font-size: 20px;
+}
+.section_title .title {
+  max-width: 280px;
+  font-size: 60px;
+  line-height: 1;
+}
+@media (max-width: 767px) {
+  .section_title .title {
+    font-size: 40px;
+  }
+}
+.section_desc {
+  font-family: "Yantramanav", sans-serif;
+  max-width: 440px;
+  margin-bottom: 0;
+}/*# sourceMappingURL=latest-blog.module.css.map */

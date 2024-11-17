@@ -1,0 +1,97 @@
+@media (min-width: 1200px) {
+  .project {
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+}
+@media (min-width: 768px) {
+  .project {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .project {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+.project_btn__wrap {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.project_btn__wrap .loadmore_btn {
+  background-color: #f2a904;
+  font-family: "Yantramanav", sans-serif;
+  padding: 20px 45px;
+  display: block;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+  line-height: 1;
+  border: 0;
+  transition: all 0.3s ease 0s;
+}
+.project_btn__wrap .loadmore_btn:hover {
+  background-color: #000000;
+}
+.project_btn__wrap .loadedText {
+  font-size: 20px;
+}
+
+/* ---Project Sidebar Widget-- */
+.sidebar_widget {
+  background-color: #000000;
+}
+.sidebar_widget__title {
+  border-bottom: 1px solid #5b749a;
+  background-color: #f2a904;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 28px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.sidebar_list {
+  text-align: center;
+}
+.sidebar_list li {
+  transition: all 0.3s ease 0s;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.sidebar_list li:not(:last-child) {
+  border-bottom: 1px solid #5b749a;
+}
+.sidebar_list li span {
+  transition: all 0.3s ease 0s;
+}
+.sidebar_brochure__widget {
+  background-color: #f2a904;
+  text-align: center;
+}
+.sidebar_brochure__list li:not(:last-child) {
+  border-bottom: 1px solid #ffdac8;
+}
+.sidebar_brochure__list li a {
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+  color: #ffffff;
+}
+.sidebar_brochure__list li span {
+  transition: all 0.3s ease 0s;
+}
+.sidebar_brochure__list li:hover a {
+  background-color: #000000;
+  color: #ffffff;
+}
+.sidebar_brochure__list li:hover a span {
+  color: #ffffff;
+}/*# sourceMappingURL=project.module.css.map */

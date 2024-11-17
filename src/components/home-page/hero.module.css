@@ -1,0 +1,126 @@
+/* ---Button--- */
+.btn {
+  transition: all 0.3s ease 0s;
+  border-radius: 0;
+  width: 170px;
+  height: 60px;
+  line-height: 60px;
+  padding: 0;
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  border: 0;
+}
+@media (max-width: 479px) {
+  .btn {
+    width: 130px;
+    height: 40px;
+    line-height: 37px;
+    font-size: 18px;
+  }
+}
+.btn.md-size {
+  width: 125px;
+  height: 40px;
+  line-height: 40px;
+}
+.btn_primary {
+  background-color: #f2a904;
+  color: #ffffff;
+}
+.btn_secondary {
+  background-color: #000000;
+  color: #ffffff;
+}
+.btn_hover__white:hover {
+  background-color: #ffffff;
+  color: inherit;
+}
+.btn_hover__primary:hover {
+  background-color: #f2a904;
+  color: #ffffff;
+}
+.btn_hover__secondary:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.slide-bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 786px;
+  height: 786px;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 1400px) {
+  .slide-bg {
+    height: 610px;
+  }
+}
+.slide-bg-01 {
+  background-image: url("/images/hero/1.jpg");
+}
+.slide-bg-02 {
+  background-image: url("/images/hero/2.jpg");
+}
+
+.subtitle {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  display: block;
+  color: #f2a904;
+  position: relative;
+  padding-left: 100px;
+  margin-bottom: 5px;
+}
+.subtitle:before {
+  background-color: #f2a904;
+  width: 80px;
+  height: 1px;
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.title h2 {
+  font-size: 88px;
+  line-height: 85px;
+  font-weight: 700;
+  max-width: 57%;
+}
+@media (max-width: 1400px) {
+  .title h2 {
+    max-width: 85%;
+  }
+}
+@media (max-width: 991px) {
+  .title h2 {
+    font-size: 50px;
+    line-height: 1;
+  }
+}
+@media (max-width: 767px) {
+  .title h2 {
+    max-width: 100%;
+  }
+}
+.title h2 span {
+  color: #f2a904;
+}
+
+.desc {
+  margin-bottom: 35px;
+  max-width: 520px;
+  font-size: 20px;
+}
+
+.btn_wrap {
+  display: flex;
+}/*# sourceMappingURL=hero.module.css.map */

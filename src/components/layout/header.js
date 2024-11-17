@@ -54,7 +54,7 @@ function Header() {
 
     return (
         <>
-            <header className={classes.area}>
+            <header ref={header} className={`sticky_holder ${classes.area}`}>
                 <div className={classes.top}>
                     <Container>
                         <Row>
@@ -69,9 +69,7 @@ function Header() {
                                             src="/images/header/icon/phone.png"
                                             alt="Phone"
                                         />
-                                        <Link href="/">
-                                        +92304 1113309
-                                        </Link>
+                                        <Link href="/">+92304 1113309</Link>
                                     </div>
                                     <div className={classes.time_schedule}>
                                         <img
@@ -142,7 +140,7 @@ function Header() {
                         </Row>
                     </Container>
                 </div>
-                <div ref={header} className={`sticky_holder ${classes.main}`}>
+                <div className={` ${classes.main}`}>
                     <Container>
                         <Row>
                             <Col
@@ -294,9 +292,7 @@ function Header() {
                     </Container>
                     <div className={`${classes.fixed__logo} d-none d-lg-flex`}>
                         <Link href="/" className={classes.logo}>
-                            <img
-                                src="/images/logo/dark.png"
-                            />
+                            <img src="/images/logo/dark.png" />
                         </Link>
                     </div>
                 </div>

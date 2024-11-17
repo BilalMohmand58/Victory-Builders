@@ -1,0 +1,63 @@
+@media (min-width: 1200px) {
+  .area {
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .area {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 991px) {
+  .area {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+.banner {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.content {
+  padding-top: 35px;
+}
+
+.single_img {
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 100%;
+}
+.single_img img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 60px;
+  line-height: 1;
+}
+
+.subtitle {
+  color: #f2a904;
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.summery_title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.2;
+}
+.summery_desc {
+  margin-bottom: 25px;
+  font-size: 18px;
+}/*# sourceMappingURL=index.module.css.map */

@@ -1,0 +1,226 @@
+.area {
+  position: relative;
+}
+
+.top {
+  background-color: #f2a904;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.top a,
+.top span {
+  font-family: "Rajdhani", sans-serif;
+  vertical-align: middle;
+  font-weight: 500;
+  margin-left: 5px;
+  color: #ffffff;
+}
+
+.info {
+  display: flex;
+}
+.info img {
+  vertical-align: middle;
+}
+.info .contact_number {
+  padding-right: 60px;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+@media (max-width: 575px) {
+  .right {
+    padding-top: 20px;
+    justify-content: center;
+  }
+}
+.right div:not(:last-child) {
+  margin-right: 20px;
+}
+.right span {
+  color: #e5e5e5;
+}
+
+.main {
+  background-color: #131212;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 1199px) {
+  .menu__list {
+    justify-content: flex-end;
+  }
+}
+.menu__list > li {
+  display: inline-block;
+  position: relative;
+}
+.menu__list > li:not(:nth-last-child(2)) {
+  margin-right: 55px;
+}
+@media (max-width: 1199px) {
+  .menu__list > li:not(:nth-last-child(2)) {
+    margin-right: 30px;
+  }
+}
+.menu__list > li:last-child {
+  margin-right: 0;
+}
+.menu__list > li > a {
+  transition: all 0.3s ease 0s;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+.menu__list > li > a span {
+  position: relative;
+  display: block;
+}
+.menu__list > li > a span:before {
+  background-color: #f2a904;
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease 0s;
+}
+.menu__list > li:hover > a {
+  color: #f2a904;
+}
+.menu__list > li:hover > a span:before {
+  width: 100%;
+  opacity: 1;
+  visibility: visible;
+}
+.menu__list > li.separator {
+  padding-right: 35px;
+}
+.menu__list > li.separator a span {
+  background-image: url(../../../public/images/header/icon/separator.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  padding-right: 35px;
+  display: inline-block;
+}
+.menu__list > li.separator a span:before {
+  width: calc(100% - 35px);
+}
+
+.search__btn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 100%;
+  color: #ffffff;
+}
+
+.offcanvas__btn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 100%;
+  color: #ffffff;
+}
+
+/* -Header Logo- */
+@media (max-width: 767px) {
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* -Fixed Logo- */
+.fixed__logo {
+  background-color: #ffffff;
+  width: 28%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: -10px;
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 1400px) and (max-width: 1599px) {
+  .fixed__logo {
+    width: 17%;
+  }
+}
+@media (max-width: 1400px) {
+  .fixed__logo {
+    width: 17%;
+  }
+}
+.fixed__logo .logo {
+  margin: auto 90px auto auto;
+  display: block;
+}
+@media (min-width: 1400px) and (max-width: 1599px) {
+  .fixed__logo .logo {
+    width: calc(100% - 60px);
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1400px) {
+  .fixed__logo .logo {
+    width: calc(100% - 60px);
+    margin: 0 auto;
+  }
+}
+
+/* --Dropdown Menu-- */
+.dropdown_holder {
+  position: relative;
+}
+.dropdown_holder:hover .dropdown_menu {
+  top: 100%;
+  opacity: 1;
+  visibility: visible;
+}
+.dropdown_menu {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  top: calc(100% + 30px);
+  left: 0;
+  transition: all 0.3s ease 0s;
+  width: 250px;
+  padding-left: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: left;
+  z-index: 2;
+}
+@media (max-width: 1199px) {
+  .dropdown_menu {
+    left: auto;
+    right: 0;
+  }
+}
+.dropdown_menu > li:not(:last-child) {
+  padding-bottom: 10px;
+}
+.dropdown_menu > li:hover > a {
+  color: #f2a904;
+}
+.dropdown_menu > li > a {
+  color: #000000;
+}/*# sourceMappingURL=header.module.css.map */

@@ -1,0 +1,47 @@
+@media (min-width: 1200px) {
+  .space__top {
+    padding-top: 140px;
+  }
+}
+@media (min-width: 992px) {
+  .space__top {
+    padding-top: 100px;
+  }
+}
+@media (max-width: 991px) {
+  .space__top {
+    padding-top: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .space__yaxis {
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+}
+@media (min-width: 992px) {
+  .space__yaxis {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 991px) {
+  .space__yaxis {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+.bg {
+  background-image: url("/images/brand/bg/1-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 767px) {
+  .item {
+    display: flex;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=brand.module.css.map */

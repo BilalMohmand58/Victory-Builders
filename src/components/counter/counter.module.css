@@ -1,0 +1,49 @@
+@media (min-width: 768px) {
+  .area {
+    padding-top: 140px;
+  }
+}
+@media (max-width: 767px) {
+  .area {
+    padding-top: 95px;
+  }
+}
+
+@media (max-width: 991px) {
+  .max_md_g_y__80 {
+    --bs-gutter-y: 80px !important;
+  }
+}
+
+.pb__140 {
+  padding-bottom: 140px;
+}
+
+.item {
+  position: relative;
+  text-align: center;
+}
+.item .count {
+  font-size: 60px;
+  line-height: 0.7;
+}
+.item .count_inner__text {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px #eaecef;
+  position: absolute;
+  font-size: 100px;
+  line-height: 47.97px;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  opacity: 0.5;
+}
+.item .count_title {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  color: #f2a904;
+  display: block;
+  font-size: 28px;
+  line-height: 1.1;
+}/*# sourceMappingURL=counter.module.css.map */
