@@ -7,8 +7,8 @@ patternAlt: 'Contact Pattern'
 subTitle: 'Do you have a project? let’s start'
 title: 'Contact with us'
 desc: 'Connect with us to discuss your project and experience a seamless, stress-free building journey with unmatched quality and attention to detail..'
-addressTitle: 'Office Address'
-addressDesc: 'Central Road, North Street Central Park, New York, USA'
+# addressTitle: 'Office Address'
+# addressDesc: 'Central Road, North Street Central Park, New York, USA'
 infoTitle: 'Contact Info'
 infoList:
     [
@@ -30,12 +30,7 @@ infoList:
             path: 'mailto://info@buildvictory.com/',
             listValue: 'info@buildvictory.com/',
         },
-        {
-            id: 'infoList-04',
-            listText: '',
-            path: '',
-            listValue: '',
-        },
+        { id: 'infoList-04', listText: '', path: '', listValue: '' },
     ]
 btnText: 'Submit'
 formTitle: 'Leave a Message'

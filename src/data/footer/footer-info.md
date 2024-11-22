@@ -22,11 +22,11 @@ quickLinkList:
         { id: 'quickLinkList-03', title: 'Renovation', path: 'services/renovation' },
         { id: 'quickLinkList-04', title: 'Renovation', path: 'services/renovation' },
     ]
-contactInfoTitle: 'Contact Info'
-widgetAddress: '215 Central Road, North Street Central Park, <span class="text-primary">New York, USA</span>'
-widgetNumber: '+92 304-111-3309 '
-additionWidgetAddress: 'Fortune Plaza 3rd Floor, Blue Area Islamabad, <span class="text-primary">Islamabad</span>'
-additionWidgetNumber: ' '
+# contactInfoTitle: 'Contact Info'
+# widgetAddress: '215 Central Road, North Street Central Park, <span class="text-primary">New York, USA</span>'
+# widgetNumber: '+92 304-111-3309 '
+# additionWidgetAddress: 'Fortune Plaza 3rd Floor, Blue Area Islamabad, <span class="text-primary">Islamabad</span>'
+# additionWidgetNumber: ' '
 socialList:
     [
         {

@@ -166,14 +166,14 @@ function Footer({ footerItems }) {
                                 <Col md={{ span: 6 }} sm={{ span: 8 }}>
                                     <div className={classes.copyright}>
                                         <span className={classes.text}>
-                                            © {new Date().getFullYear()}{' '}
-                                            VictoryBuild Made with
+                                            © {new Date().getFullYear()} Victory
+                                            Builder Made with
                                             <span className={classes.icon}>
                                                 <FaIcons.FaHeart />
                                             </span>
                                             by
                                             <a href="https://themaidaan.com/">
-                                                maidaan
+                                                Maidaan Marketing
                                             </a>
                                         </span>
                                     </div>

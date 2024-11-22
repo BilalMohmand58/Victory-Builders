@@ -11,10 +11,7 @@ function ContactPage({ contactItems, newsletterItems, footerItems }) {
         <>
             <Head>
                 <title>Contact</title>
-                <meta
-                    name="description"
-                    content="Victory Builders - Construction , Products Manufacturing Company, building companies, architecture firms, and the like can take to their advantage by using OxyBuild - Construction React Next JS Template."
-                />
+                <meta name="description" content="Victory Builders." />
             </Head>
             <Breadcrumb
                 subTitle="Contact us"
