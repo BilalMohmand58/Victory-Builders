@@ -33,7 +33,7 @@ function DefaultBlogPage({ blogs }) {
                                             />
                                         ))}
                                     </Row>
-                                    <PageNavigation />
+                                    {/* <PageNavigation /> */}
                                 </Container>
                             </div>
                         </Col>
