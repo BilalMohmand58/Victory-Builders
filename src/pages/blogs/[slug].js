@@ -67,7 +67,7 @@ function BlogDetailPage({ blog, blogsSidebar }) {
             </Head>
             <Breadcrumb
                 subTitle="Blog Details"
-                title={title}
+                title={`${title.split(" ").slice(0, 5).join(" ")}...`}
                 desc=""
             />
             <div style={{ marginTop: '50px' }}>

@@ -45,7 +45,7 @@ function HomePage({
         <>
             <Head>
                 <title>Home - VictoryBuilders</title>
-                <meta name="description" content="Victory Builder" />
+                <meta name="description" content="Victory Builder - Start Building Your Victory" />
             </Head>
             <Hero heroItems={heroItems} />
             <BannerOne bannerItems={bannerItems} />
