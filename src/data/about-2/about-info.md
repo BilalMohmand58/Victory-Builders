@@ -8,9 +8,9 @@ singleImageOne: '/images/about/2-2-204x211.jpg'
 singleImageOneAlt: 'About Single Image'
 singleImageTwo: '/images/about/2-3-204x211.jpg'
 singleImageTwoAlt: 'About Single Image'
-title: 'Provide best Services for you'
-subTitle: 'Provide the best Constructin services for our client with their satisfaction'
-desc: 'Construction of itself, because it is pain, but because some are proper style design occur in toil and pain pleasure we have a expert team some of the main features..'
+title: 'We provide the best services'
+subTitle: 'Client satisfaction is our priority'
+desc: 'We prioritize excellence by combining innovative designs with precision craftsmanship, ensuring every project is handled by our expert team with these standout features.'
 listItem:
     [
         { id: 'listItem-01', checkIcon: 'FaCheck', text: 'Expert Team' },

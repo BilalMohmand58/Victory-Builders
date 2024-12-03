@@ -20,7 +20,7 @@ function UpcomingProjects() {
                                 projects, Grand Prairie Gardens will feature
                                 community-centered amenities and high-quality
                                 construction, creating a lasting and inviting
-                                environment for future residents
+                                environment for future residents.
                             </p>
                         </div>
                     </div>

@@ -21,7 +21,7 @@ listItem:
         },
         {
             id: 'listItem-02',
-            listText: ' We listen to our clients, ensuring every home reflects their unique preferences',
+            listText: ' We listen to our clients, ensuring every home reflects their unique preferences.',
         },
         {
             id: 'listItem-03',

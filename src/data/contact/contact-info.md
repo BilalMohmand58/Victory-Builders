@@ -7,23 +7,23 @@ patternAlt: 'Contact Pattern'
 subTitle: 'Do you have a project? let’s start'
 title: 'Contact with us'
 desc: 'Connect with us to discuss your project and experience a seamless, stress-free building journey with unmatched quality and attention to detail..'
-# addressTitle: 'Office Address'
-# addressDesc: 'Central Road, North Street Central Park, New York, USA'
+addressTitle: 'Office Address'
+addressDesc: '3700 N Classen Blvd, Oklahoma City, OK 73118'
 infoTitle: 'Contact Info'
 infoList:
     [
         {
             id: 'infoList-01',
             listText: 'Phone:',
-            path: 'tel://0092-12458-875-895',
-            listValue: '(+92) 304-111-3309',
+            path: 'tel:// (405) 861-1738',
+            listValue: ' (405) 861-1738',
         },
-        {
-            id: 'infoList-02',
-            listText: 'Fax:',
-            path: 'tel://+096-304-111-3309',
-            listValue: '(0092) 304-111-3309',
-        },
+        # {
+        #     id: 'infoList-02',
+        #     listText: 'Fax:',
+        #     path: 'tel://+096-304-111-3309',
+        #     listValue: '(0092) 304-111-3309',
+        # },
         {
             id: 'infoList-03',
             listText: 'Email:',
@@ -34,7 +34,7 @@ infoList:
     ]
 btnText: 'Submit'
 formTitle: 'Leave a Message'
-formDesc: 'Top rated construction packages we pleasure ationally obtain simple and easy'
+formDesc: ''
 mapPattern: '/images/contact/pattern.png'
 mapPatternAlt: 'Map Pattern'
 ---

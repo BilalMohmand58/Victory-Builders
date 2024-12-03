@@ -35,7 +35,7 @@ function AboutPage({
             <Breadcrumb
                 subTitle="What we do"
                 title="About us"
-                desc="Victory Builders prioritize excellence and innovation, transforming properties into high-quality"
+                desc="Victory Builders is your trusted partner for exceptional residential construction."
             />
             <AboutOne aboutItems={aboutItems} />
             <BannerThree bannerThreeItems={bannerThreeItems} />

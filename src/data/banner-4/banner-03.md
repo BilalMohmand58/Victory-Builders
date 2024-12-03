@@ -1,6 +1,6 @@
 ---
 id: 'banner-03'
-title: 'Construction <br/> & Finalize'
+title: 'Construction <br/> & Finalization'
 excerpt: 'Precise construction to turn your vision into reality.'
 path: '/projects'
 dataCount: '03'

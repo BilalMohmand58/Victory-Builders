@@ -1,4 +1,4 @@
 ---
 id: 'newsletter-01'
-title: 'Subscribe our Newsletter'
+title: 'Subscribe our Newsletters'
 ---

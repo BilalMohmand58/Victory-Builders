@@ -117,8 +117,9 @@ function Contact({ contactItems }) {
                                     <iframe
                                         title="Victory Builders"
                                         className="map_size"
-                                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1510.2427510468938!2d-73.94664382805038!3d40.795323849087175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1731742885511!5m2!1sen!2s"
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3247.8390472728597!2d-97.53376779999999!3d35.5082579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b21a064cf98035%3A0x82c418bc79f35864!2s3700%20N%20Classen%20Blvd%2C%20Oklahoma%20City%2C%20OK%2073118%2C%20USA!5e0!3m2!1sen!2s!4v1733228022520!5m2!1sen!2s"
                                     />
+                                    
                                     <div className="map_pattern">
                                         <img
                                             src={contactItem?.mapPattern}

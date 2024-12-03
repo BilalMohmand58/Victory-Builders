@@ -22,27 +22,33 @@ quickLinkList:
         { id: 'quickLinkList-03', title: 'Renovation', path: 'services/renovation' },
         { id: 'quickLinkList-04', title: 'Renovation', path: 'services/renovation' },
     ]
-# contactInfoTitle: 'Contact Info'
-# widgetAddress: '215 Central Road, North Street Central Park, <span class="text-primary">New York, USA</span>'
-# widgetNumber: '+92 304-111-3309 '
-# additionWidgetAddress: 'Fortune Plaza 3rd Floor, Blue Area Islamabad, <span class="text-primary">Islamabad</span>'
-# additionWidgetNumber: ' '
+contactInfoTitle: 'Contact Info'
+widgetAddress: '3700 N Classen Blvd, Oklahoma City, OK 73118, <span class="text-primary"> USA</span>'
+widgetNumber: ''
+additionWidgetAddress: '(405) 861-1738'
+additionWidgetNumber: ' '
 socialList:
     [
         {
-            id: 'socialList-01',
-            socialIcon: 'FaFacebookF',
-            path: 'https://www.example.com',
-        },
-        {
-            id: 'socialList-02',
-            socialIcon: 'FaTwitter',
-            path: 'https://www.example.com',
-        },
-        {
-            id: 'socialList-03',
-            socialIcon: 'FaInstagram',
-            path: 'https://www.example.com',
-        },
+    id: 'socialList-01',
+    socialIcon: 'FaFacebookF',
+    path: 'https://www.facebook.com/profile.php?id=61569970799631',
+},
+{
+    id: 'socialList-02',
+    socialIcon: 'FaInstagram',
+    path: 'https://www.instagram.com/build.victory/',
+},
+{
+    id: 'socialList-03',
+    socialIcon: 'FaTiktok',
+    path: 'https://www.tiktok.com/@build.victory',
+},
+{
+    id: 'socialList-04',
+    socialIcon: 'FaLinkedinIn',
+    path: 'https://www.linkedin.com/company/victory-builder',
+},
+
     ]
 ---
