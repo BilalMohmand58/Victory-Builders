@@ -69,7 +69,7 @@ function Header() {
                                             src="/images/header/icon/phone.png"
                                             alt="Phone"
                                         />
-                                        <Link href="/">+92 304 1113309</Link>
+                                        <Link href="/">(405) 861-1738</Link>
                                     </div>
                                     <div className={classes.time_schedule}>
                                         <img
