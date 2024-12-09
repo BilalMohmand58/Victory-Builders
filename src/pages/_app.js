@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
                     async
                     type="text/javascript"
                     src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=R6tVP6"
-                ></script>
+                />
             </Head>
             <Component {...pageProps} />
             <ScrollToTop />
