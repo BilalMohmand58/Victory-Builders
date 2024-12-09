@@ -56,13 +56,13 @@ function BlogDetailPage({ blog, blogsSidebar }) {
         return <p>Blog not found.</p>; // Handle not found case
     }
 
-    const { title, discription, featureImage } = blog.fields; // Corrected "discription" to "Discription"
+    const { title, discription, featureImage } = blog.fields; 
     const featureImageUrl = featureImage.fields.file.url;
 
     return (
         <>
             <Head>
-                <title>{title} - OxyBuild</title>
+                <title>{title}</title>
                 <meta name="Description" content={`Read about ${title}`} />
             </Head>
             <Breadcrumb

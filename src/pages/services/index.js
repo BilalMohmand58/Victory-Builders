@@ -27,10 +27,10 @@ function ServicePage({
     return (
         <>
             <Head>
-                <title>Services - Victory Builders</title>
+                <title>Residential Construction Services | Victory Builders</title>
                 <meta
                     name="description"
-                    content="Victory Builders - Construction Industry, We specialize in delivering premium construction services, ensuring every project is completed with quality, precision, and customer satisfaction.."
+                    content=" Discover Victory Builders’ top-notch services, including high-quality construction, energy-efficient solutions, and modern design tailored to your lifestyle."
                 />
             </Head>
             <Breadcrumb

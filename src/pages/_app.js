@@ -13,6 +13,12 @@ function MyApp({ Component, pageProps }) {
                     content="width=device-width, initial-scale=1"
                 />
                 <link rel="icon" href="/favicon.ico" />
+                 {/* Klaviyo Script */}
+                 <script
+                    async
+                    type="text/javascript"
+                    src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=R6tVP6"
+                ></script>
             </Head>
             <Component {...pageProps} />
             <ScrollToTop />

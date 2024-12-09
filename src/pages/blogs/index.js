@@ -11,8 +11,8 @@ function DefaultBlogPage({ blogs }) {
     return (
         <>
             <Head>
-                <title>Blogs - Victory Builders</title>
-                <meta name="description" content="All Blogs" />
+                <title>Victory Builders Blog | Insights on Residential Construction</title>
+                <meta name="description" content=" Explore expert tips, industry insights, and updates on modern residential construction. Stay informed with the Victory Builders Blog." />
             </Head>
             <Breadcrumb
                 subTitle="Our Blog"
