@@ -1,6 +1,6 @@
 ---
 id: 'service-02'
-title: 'Construction'
+title: 'Residential & Commercial Construction'
 mediumImage: 'construction-md.jpg'
 largeImage: 'construction-lg.jpg'
 detailBreadcrumbSubTitle: 'Single Service'

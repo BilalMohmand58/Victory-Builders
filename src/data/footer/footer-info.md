@@ -18,9 +18,8 @@ quickLinkTitle: 'Our Services'
 quickLinkList:
     [
         { id: 'quickLinkList-01', title: 'Modern Architecture', path: 'services/architecture' },
-        { id: 'quickLinkList-02', title: 'Construction', path: 'services/construction' },    
-        { id: 'quickLinkList-03', title: 'Renovation', path: 'services/renovation' },
-        { id: 'quickLinkList-04', title: 'Renovation', path: 'services/renovation' },
+        { id: 'quickLinkList-02', title: 'Residential & Commercial Construction', path: 'services/construction' },    
+        { id: 'quickLinkList-03', title: 'Renovation & Remodelling', path: 'services/renovation' },
     ]
 contactInfoTitle: 'Contact Info'
 widgetAddress: '3700 N Classen Blvd, Oklahoma City, OK 73118, <span class="text-primary"> USA</span>'

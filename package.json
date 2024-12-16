@@ -15,6 +15,7 @@
         "browserslist": "^4.21.4",
         "contentful": "^11.2.0",
         "disqus-react": "^1.1.5",
+        "emailjs-com": "^3.2.0",
         "gray-matter": "^4.0.3",
         "next": "13.1.1",
         "prop-types": "^15.8.1",

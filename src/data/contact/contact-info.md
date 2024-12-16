@@ -27,8 +27,8 @@ infoList:
         {
             id: 'infoList-03',
             listText: 'Email:',
-            path: 'mailto://info@buildvictory.com/',
-            listValue: 'info@buildvictory.com/',
+            path: 'mailto://info@buildvictory.com',
+            listValue: 'info@buildvictory.com',
         },
         { id: 'infoList-04', listText: '', path: '', listValue: '' },
     ]

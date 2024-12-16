@@ -1,9 +1,50 @@
+import { useState } from 'react';
+import emailjs from 'emailjs-com';
 import Link from 'next/link';
 import PropTypes from 'prop-types';
 import { Col, Container, Row } from 'react-bootstrap';
 import classes from './index.module.scss';
 
 function Contact({ contactItems }) {
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        message: '',
+    });
+    const [status, setStatus] = useState('');
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData((prev) => ({ ...prev, [name]: value }));
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        setStatus('Sending...');
+
+        emailjs
+            .sendForm(
+                'service_m4b4qh5', // Replace with your EmailJS service ID
+                'template_2puvcfa', // Replace with your EmailJS template name
+                e.target, // The form element
+                '1ScSGwq6xl7Pz6CZ5' // Replace with your EmailJS user ID
+            )
+            .then(
+                (result) => {
+                    console.log('Success:', result.text);
+                    setStatus('Message sent successfully!');
+                    setTimeout(() => {
+                        setStatus('');
+                    }, 2000);
+                    setFormData({ name: '', email: '', message: '' }); // Clear form
+                },
+                (error) => {
+                    console.log('Error:', error.text);
+                    setStatus('Failed to send message. Please try again.');
+                }
+            );
+    };
+
     return (
         <main>
             {contactItems?.map((contactItem) => (
@@ -76,7 +117,10 @@ function Contact({ contactItems }) {
                                 <p className={`${classes.form_desc} mb-0`}>
                                     {contactItem?.formDesc}
                                 </p>
-                                <form className={classes.form}>
+                                <form
+                                    className={classes.form}
+                                    onSubmit={handleSubmit}
+                                >
                                     <div className={classes.form_group__input}>
                                         <input
                                             type="text"
@@ -84,6 +128,8 @@ function Contact({ contactItems }) {
                                             id="name"
                                             placeholder="Your Name*"
                                             required
+                                            value={formData.name}
+                                            onChange={handleChange}
                                             className={`${classes.form_input__field} me-30`}
                                         />
                                         <input
@@ -92,14 +138,17 @@ function Contact({ contactItems }) {
                                             id="email"
                                             placeholder="Your Email*"
                                             required
-                                            className={
-                                                classes.form_input__field
-                                            }
+                                            value={formData.email}
+                                            onChange={handleChange}
+                                            className={classes.form_input__field}
                                         />
                                     </div>
                                     <textarea
-                                        type="text"
+                                        name="message"
+                                        id="message"
                                         placeholder="Message"
+                                        value={formData.message}
+                                        onChange={handleChange}
                                         className={`${classes.form_textarea__field} mt-30`}
                                     />
                                     <div className={classes.form_btn__wrap}>
@@ -111,6 +160,7 @@ function Contact({ contactItems }) {
                                         </button>
                                     </div>
                                 </form>
+                                {status && <p>{status}</p>}
                             </Col>
                             <Col lg={{ span: 6 }} className="ps-lg-50">
                                 <div className="map_with__pattern">
@@ -119,7 +169,6 @@ function Contact({ contactItems }) {
                                         className="map_size"
                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3247.8390472728597!2d-97.53376779999999!3d35.5082579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b21a064cf98035%3A0x82c418bc79f35864!2s3700%20N%20Classen%20Blvd%2C%20Oklahoma%20City%2C%20OK%2073118%2C%20USA!5e0!3m2!1sen!2s!4v1733228022520!5m2!1sen!2s"
                                     />
-                                    
                                     <div className="map_pattern">
                                         <img
                                             src={contactItem?.mapPattern}
