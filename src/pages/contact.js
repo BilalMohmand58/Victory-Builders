@@ -11,7 +11,10 @@ function ContactPage({ contactItems, newsletterItems, footerItems }) {
         <>
             <Head>
                 <title>Contact Victory Builders | Build Your Dream Home</title>
-                <meta name="description" content="Get in touch with Victory Builders for personalized residential construction services. Our expert team is here to assist you with all your construction needs." />
+                <meta
+                    name="description"
+                    content="Get in touch with Victory Builders for personalized residential construction services. Our expert team is here to assist you with all your construction needs."
+                />
             </Head>
             <Breadcrumb
                 subTitle="Contact us"

@@ -140,7 +140,9 @@ function Contact({ contactItems }) {
                                             required
                                             value={formData.email}
                                             onChange={handleChange}
-                                            className={classes.form_input__field}
+                                            className={
+                                                classes.form_input__field
+                                            }
                                         />
                                     </div>
                                     <textarea

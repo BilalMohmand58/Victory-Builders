@@ -56,7 +56,7 @@ function BlogDetailPage({ blog, blogsSidebar }) {
         return <p>Blog not found.</p>; // Handle not found case
     }
 
-    const { title, discription, featureImage } = blog.fields; 
+    const { title, discription, featureImage } = blog.fields;
     const featureImageUrl = featureImage.fields.file.url;
 
     return (
@@ -67,7 +67,7 @@ function BlogDetailPage({ blog, blogsSidebar }) {
             </Head>
             <Breadcrumb
                 subTitle="Blog Details"
-                title={`${title.split(" ").slice(0, 5).join(" ")}...`}
+                title={`${title.split(' ').slice(0, 5).join(' ')}...`}
                 desc=""
             />
             <div style={{ marginTop: '50px' }}>

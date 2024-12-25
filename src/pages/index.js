@@ -44,8 +44,14 @@ function HomePage({
     return (
         <>
             <Head>
-                <title> Victory Builders | Start Building Your Victory Today!</title>
-                <meta name="description" content="Transform your residential construction dreams into reality with Victory Builders. We deliver high-quality, energy-efficient, and modern homes tailored to your needs in the United States." />
+                <title>
+                    {' '}
+                    Victory Builders | Start Building Your Victory Today!
+                </title>
+                <meta
+                    name="description"
+                    content="Transform your residential construction dreams into reality with Victory Builders. We deliver high-quality, energy-efficient, and modern homes tailored to your needs in the United States."
+                />
             </Head>
             <Hero heroItems={heroItems} />
             <BannerOne bannerItems={bannerItems} />

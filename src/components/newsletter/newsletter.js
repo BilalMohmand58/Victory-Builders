@@ -176,7 +176,10 @@ function Newsletter({ newsletterItems }) {
                                 <h2 className={classes.title}>
                                     {newsletterItem?.title}
                                 </h2>
-                                <form className={classes.form} onSubmit={handleSubmit}>
+                                <form
+                                    className={classes.form}
+                                    onSubmit={handleSubmit}
+                                >
                                     <input
                                         className={classes.input_field}
                                         type="email"
@@ -194,7 +197,9 @@ function Newsletter({ newsletterItems }) {
                                         </button>
                                     </div>
                                 </form>
-                                {status && <p className={classes.status}>{status}</p>}
+                                {status && (
+                                    <p className={classes.status}>{status}</p>
+                                )}
                             </div>
                         </Col>
                     ))}

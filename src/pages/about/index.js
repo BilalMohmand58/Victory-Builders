@@ -26,7 +26,10 @@ function AboutPage({
     return (
         <>
             <Head>
-                <title> About Victory Builders | Crafting Homes with Excellence</title>
+                <title>
+                    {' '}
+                    About Victory Builders | Crafting Homes with Excellence
+                </title>
                 <meta
                     name="description"
                     content="Learn about Victory Builders, a premier residential construction company dedicated to creating exceptional, energy-efficient homes that blend beauty with functionality."
