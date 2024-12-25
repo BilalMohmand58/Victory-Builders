@@ -6,12 +6,11 @@ pattern: '/images/contact/pattern.png'
 patternAlt: 'Contact Pattern'
 subTitle: 'Do you have a project? let’s start'
 title: 'Contact with us'
-desc: 'Connect with us to discuss your project and experience a seamless, stress-free building journey with unmatched quality and attention to detail..'
+desc: 'Connect with us to discuss your project and experience a seamless, stress-free building journey with unmatched quality and attention to detail...'
 addressTitle: 'Office Address'
 addressDesc: '3700 N Classen Blvd, Oklahoma City, OK 73118'
 infoTitle: 'Contact Info'
-infoList:
-    [
+infoList: [
         {
             id: 'infoList-01',
             listText: 'Phone:',
