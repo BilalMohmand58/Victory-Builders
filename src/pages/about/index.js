@@ -32,13 +32,13 @@ function AboutPage({
                 </title>
                 <meta
                     name="description"
-                    content="Learn about Victory Builders, a premier residential construction company dedicated to creating exceptional, energy-efficient homes that blend beauty with functionality."
+                    content="Learn about Victory Builders, a premier residential, commercial and industrial construction company dedicated to creating exceptional, energy-efficient homes that blend beauty with functionality."
                 />
             </Head>
             <Breadcrumb
                 subTitle="What we do"
                 title="About us"
-                desc="Victory Builders is your trusted partner for exceptional residential construction."
+                desc="Victory Builders is your trusted partner for exceptional residential, commercial and industrial construction."
             />
             <AboutOne aboutItems={aboutItems} />
             <BannerThree bannerThreeItems={bannerThreeItems} />

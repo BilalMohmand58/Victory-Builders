@@ -22,7 +22,7 @@ function DefaultBlogPage({ blogs }) {
             <Breadcrumb
                 subTitle="Our Blog"
                 title="blogs"
-                desc="Construction of itself, because it is pain some proper style design occur are pleasure"
+                desc="Welcome to the Victory Builders blog — your ultimate resource for insights into construction, renovation, and remodeling."
             />
             <div>
                 <Container>

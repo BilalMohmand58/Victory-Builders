@@ -2,7 +2,7 @@
 id: 'about-01'
 sectionTitle: 'We Construct your needs'
 sectionSubtitle: 'About Us'
-sectionDesc: 'Victory Builders is a premier residential construction company dedicated to crafting exceptional homes that bring our clients’ visions to life.'
+sectionDesc: 'Victory Builders is a premier residential, commercial and industrial construction company dedicated to crafting exceptional homes that bring our clients’ visions to life.'
 image: '/images/about/1-1.jpg'
 alt: 'About Image'
 pattern: '/images/about/pattern.png'
@@ -11,7 +11,7 @@ experienceYear: ''
 ourProgress: 'Why Choose<span>Victory Builders?</span>'
 experienceImage: '/images/about/avatar.png'
 experienceAlt: 'Avatar'
-aboutSubtitle: 'Victory Builders is your trusted partner for exceptional residential construction.'
+aboutSubtitle: 'Victory Builders is your trusted partner for exceptional residential, commercial and industrial construction.'
 aboutDesc: 'We stand out for our client-centric approach, blending quality craftsmanship with flexible designs and energy-efficient features. '
 listItem:
     [
