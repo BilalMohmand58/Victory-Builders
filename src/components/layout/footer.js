@@ -167,14 +167,14 @@ function Footer({ footerItems }) {
                                     <div className={classes.copyright}>
                                         <span className={classes.text}>
                                             © {new Date().getFullYear()} Victory
-                                            Builder Made with
-                                            <span className={classes.icon}>
+                                            Builder 
+                                            {/* <span className={classes.icon}>
                                                 <FaIcons.FaHeart />
                                             </span>
-                                            by
-                                            <a href="https://themaidaan.com/">
+                                             */}
+                                            {/* <a href="https://themaidaan.com/">
                                                 Maidaan Marketing
-                                            </a>
+                                            </a> */}
                                         </span>
                                     </div>
                                 </Col>
