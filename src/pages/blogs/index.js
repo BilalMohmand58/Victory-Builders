@@ -6,6 +6,8 @@ import Breadcrumb from '../../components/breadcrumb';
 import PageNavigation from '../../components/page-navigation';
 import BlogFullwidthItem from '../../components/blogs/fullwidth-item';
 import client from '../../lib/contentful-client';
+import Footer2 from '../../components/layout/Footer2';
+import Newsletter from '../../components/newsletter/newsletter';
 
 function DefaultBlogPage({ blogs }) {
     return (
@@ -45,6 +47,8 @@ function DefaultBlogPage({ blogs }) {
                     </Row>
                 </Container>
             </div>
+            <Newsletter />
+            <Footer2/>
         </>
     );
 }

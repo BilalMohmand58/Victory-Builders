@@ -131,7 +131,7 @@ import emailjs from 'emailjs-com';
 import { Col, Container, Row } from 'react-bootstrap';
 import classes from './newsletter.module.scss';
 
-function Newsletter({ newsletterItems }) {
+function Newsletter() {
     const [email, setEmail] = useState('');
     const [status, setStatus] = useState('');
 
@@ -170,11 +170,11 @@ function Newsletter({ newsletterItems }) {
         <div className={`${classes.bg}`}>
             <Container>
                 <Row>
-                    {newsletterItems?.map((newsletterItem) => (
-                        <Col lg={{ span: 12 }} key={newsletterItem.id}>
+                    
+                        <Col lg={{ span: 12 }} >
                             <div className={classes.item}>
                                 <h2 className={classes.title}>
-                                    {newsletterItem?.title}
+                                Subscribe our Newsletters
                                 </h2>
                                 <form
                                     className={classes.form}
@@ -202,15 +202,13 @@ function Newsletter({ newsletterItems }) {
                                 )}
                             </div>
                         </Col>
-                    ))}
+                  
                 </Row>
             </Container>
         </div>
     );
 }
 
-Newsletter.propTypes = {
-    newsletterItems: PropTypes.instanceOf(Object).isRequired,
-};
+
 
 export default Newsletter;

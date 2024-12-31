@@ -8,6 +8,8 @@ import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 import client from '../../lib/contentful-client';
 import Breadcrumb from '../../components/breadcrumb';
 import classes from '../../components/blogs/blog.module.scss';
+import Footer2 from '../../components/layout/Footer2';
+import Newsletter from '../../components/newsletter/newsletter';
 
 export async function getStaticPaths() {
     const entries = await client.getEntries({ content_type: 'blog' });
@@ -202,6 +204,8 @@ function BlogDetailPage({ blog, blogsSidebar }) {
                     </Row>
                 </Container>
             </div>
+<Newsletter />
+            <Footer2/>
         </>
     );
 }
